@@ -7,7 +7,7 @@
 
 > Desafio 9 da codelandia do Iuri Silva finalizado e como de costume sempre tendo trazer algo a mais do que foi pedido no desafio dessa vez além do layout implementei um sistema de busca ultilizando a api do github ele fazer uma verificação trazendo as informações basica do seu perfil do github bem simples decidir implementar esse sistema para complementar meus estudo de python na web usando Flask e jinja2 
 
-Veja o projeto final aqui:()
+Veja o projeto final aqui:(https://desafio9.herokuapp.com)
 
 ## Run tests
 
