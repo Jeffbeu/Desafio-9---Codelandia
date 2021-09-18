@@ -1,0 +1,34 @@
+body {
+	font-family: "DM Sans", sans-serif;
+	background-color: whitesmoke;
+}
+
+#head {
+	font-family: "DM Sans", sans-serif;;
+}
+
+a {
+	color: #00df5e;
+	
+}
+i{
+	color: #000000;
+}
+.validate{
+	color: #fff;
+}
+
+#itemname{
+	color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+	.calendar-wrapper{
+		overflow-x: scroll;
+		padding: 0px !important;
+	}
+}

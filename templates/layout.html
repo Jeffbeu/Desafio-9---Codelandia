@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<title>Desafio 9  | {% block title %}{% endblock %}</title>
+
+	<link rel="icon" href="{{ url_for('static', filename='pesquisa.png') }}">
+
+	<!-- Compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+  	<!--Import Google Icon Font-->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  	<!-- Import Jquery-->
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  	<!-- Compiled and minified JavaScript -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+
+  	<!-- Custom CSS -->
+  	<link href="{{ url_for('static', filename='styles1.css') }}" rel="stylesheet"/>
+	{% block extras %}{% endblock %}
+</head>
+<body>
+	{% block main %}{% endblock %}
+	<div class="fixed-action-btn">
+	    <a class="btn-floating btn-large green">
+	      <i class="large material-icons">eject</i>
+	    </a>
+	    <ul>
+	      <li><a class="btn tooltipped btn-floating green" data-position="left" data-delay="50" data-tooltip="Home" href="{{ url_for('index') }}"><i class="material-icons">home</i></a></li>
+	    </ul>
+  	</div>
+</body>
+</html>

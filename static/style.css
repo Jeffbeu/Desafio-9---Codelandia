@@ -1,0 +1,172 @@
+body{
+    /* background-color: #171717 */
+    font-family: "DM Sans", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+h2{
+    color: #fff;
+}
+i{
+    color: #00df5e;
+}
+a{
+    color:#fff
+}
+a:hover{
+    color:#00df5e;
+}
+.btncard{
+    background-color: #00df5e;
+    color: #fff;
+}
+
+#buttonk{
+    background-color: #00df5e;
+    color: #fff;
+}
+#buttonk:hover{
+    background-color: #fff;
+    color: #000;
+}
+#btn-cv{
+    font-size: 14px;
+    padding: 12px 18px;
+    margin-right: 10px;
+    color: #000;
+    background-color: #00df5e;
+}
+#btn-cv:hover{
+    background-color: #000;
+    border: 1px solid #333333;
+    color: #f9f9f9;
+}
+#contact{
+color: #f9f9f9;
+font-size: 14px;
+padding: 12px 18px;
+margin-right: 10px;
+border: 1px solid #333333;
+}
+
+#contact:hover{
+    background-color:#00df5e;
+    border: none;
+    color: #000
+}
+#logo{
+font-size: 26px;
+font-weight: 700;
+color: #fff;
+}
+#logo:hover{
+    color: #00df5e;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #00df5e
+}
+.contacts{
+    padding: 27px 0;
+    color: #00df5e;
+}
+.contacts i {
+    font-size: 26px;
+    background-color: #212121;
+    border-radius: 50%;
+    padding: 20px;
+}
+.contacts h3{
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top:30px;
+}
+.contacts span{
+    font-size: 16px;
+    color: #828282;
+}
+.contacts a{
+    color: #00df5e;
+}
+.card{
+    background-color: #212121;
+    margin-bottom: 20px;
+    border: 1px solid #333333;
+    padding: 15px 20px;
+    color: #fff;
+}
+.card h5{
+    color: #fff;
+}
+.services {
+    padding: 80px 0;
+  }
+  
+  .services .col-12 {
+    margin-bottom: 30px;
+  }
+  
+  .services h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 30px;
+    color: #f9f9f9;
+  }
+  
+  .services-item {
+    background-color: #212121;
+    border: 1px solid #333333;
+    border-bottom: 5px solid #00df5e;
+    padding: 30px;
+	margin-left: 45px;
+  }
+  
+  .services-item i {
+    font-size: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  .services-item h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #828282;
+    padding-top: 26px;
+  }
+  .services-item h3:hover{
+      color: #00df5e;
+  }
+  .skills {
+    padding-bottom: 70px;
+  }
+  
+  .skills .col-6 {
+    margin-bottom: 20px;
+  }
+  .skills h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 30px;
+    color: #f9f9f9;
+  }
+  
+  .skills i {
+    font-size: 80px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .skill-item {
+    background-color: #212121;
+    border: 1px solid #333333;
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    color: #00df5e;
+  }

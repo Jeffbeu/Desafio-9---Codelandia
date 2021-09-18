@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Desafio 9</title>
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+  
+    <meta name="theme-color" content="#000">
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="{{ url_for('static', filename='assets/css/theme.min.css' )}}" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  
+
+  <body style="background-color: black;">
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <div id="particles-js"></div>
+
+    <main class="main" id="top">
+      <nav class="navbar navbar-expand-lg navbar-black fixed-top py-4 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container"><a class="navbar-brand" href="index.html">
+          <p id="logo">Portfolio</p></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
+              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
+              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#sobre">Sobre Mim </a></li>
+              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#projetos">Projetos</a></li>
+              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#servicos">Serviços</a></li>
+              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#habilidades">Minhas Skills</a></li>
+
+            </ul>
+            <form class="ps-lg-5"><a class="btn order-1 order-lg-0" id="buttonk" href="{{ url_for('git') }}">login<svg class="bi bi-person-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                </svg></a></form>
+          </div>
+        </div>
+      </nav>
+      
+      <section id="home">
+        <!--/.bg-holder-->
+       
+        <div class="container">
+          <div class="row align-items-center min-vh-50 min-vh-sm-75">
+            <div class="col-md-5 col-lg-5 order-3 order-md-4 align-items-end"><img src="{{ url_for('static', filename='assets/img/image.png') }}" style= "margin-left: 160px;"alt="..."></div>
+            <div class="col-md-7 col-lg-6 text-md-start text-center">
+              <h1 class="text-white fs-md-5 fs-lg-6">Olá eu sou Douglas Oliveira :)</h1>
+              <p class="text-light">Desenvolvedor Front-End & UI Design
+              </p>
+              <a class="btn btn-success" id="btn-cv" href="#" role="button">Download CV</a>
+              <a class="btn" id="contact" href="#" role="button">Entrar em contato</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="pt-8" id="sobre">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-xxl-5 text-center mx-auto">
+              <h2>Sobre Mim</h2>
+              <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q uis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+  	<!--	SECTION CONTACTS	-->
+    <div class="contacts">
+      <div class="row text-center">
+        <div class="col-6 col-md-3">
+          <i class="far fa-smile"></i>
+          <h3>Meu Nome</h3>
+          <span>Douglas Oliveira</span>
+        </div>
+        <div class="col-6 col-md-3">
+          <i class="far fa-envelope"></i>
+          <h3>E-mail</h3>
+          <span>douglas-oliveira12@hotmail.com</span>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="#" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <h3>Instagram</h3>
+            <span>@nãotenho</span>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <i class="fas fa-phone-alt"></i>
+          <h3>Telefone</h3>
+          <span>(66)9 6666-6666</span>
+        </div>
+      </div>
+    </div>
+    <!--	END SECTION CONTACTS	-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> projetos ============================-->
+      <section class="pt-6" id="projetos">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-xxl-5 text-center mx-auto mb-5">
+              <h2>Projetos</h2>
+              <p class="mb-5">Somente uma ilustração para seguir oque foi proposto no desafio se quiser ver projetos verdadeiro <a href="douglasportifolio.tk">clique aqui</a> </p>
+            </div>
+          </div>
+          <div class="row">
+          <div class="col-12 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/gallery/join-us.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Titulo do Projeto</h5>
+              <p class="card-text">Tecnologias: HTML CSS JS</p>
+              <a href="{{ url_for ('git')}}" class="btn btn-success">Clique Aqui</a>
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/gallery/join-us.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Titulo do Projeto</h5>
+              <p class="card-text">Tecnologias: HTML CSS JS</p>
+              <a href="{{ url_for ('git')}}" class="btn btn-success">Clique Aqui</a>
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/gallery/join-us.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Titulo do Projeto</h5>
+              <p class="card-text">Tecnologias: HTML CSS JS</p>
+              <a href="{{ url_for ('git')}}" class="btn btn-success">Clique Aqui</a>
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/gallery/join-us.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Titulo do Projeto</h5>
+              <p class="card-text">Tecnologias: HTML CSS JS</p>
+              <a href="{{ url_for ('git')}}" class="btn btn-success">Clique Aqui</a>
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/gallery/join-us.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Titulo do Projeto</h5>
+              <p class="card-text">Tecnologias: HTML CSS JS</p>
+              <a href="{{ url_for ('git')}}" class="btn btn-success">Clique Aqui</a>
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/gallery/join-us.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Titulo do Projeto</h5>
+              <p class="card-text">Tecnologias: HTML CSS JS</p>
+              <a href="{{ url_for ('git')}}" class="btn btn-success">Clique Aqui</a>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      
+        <!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+      
+      <section class="py-0 py-xxl-6" id="servicos">
+        <div class="row">
+          <div class="col-lg-6 col-xxl-5 text-center mx-auto mb-5">
+            <h2>Serviços</h2>
+            
+          </div>
+        </div>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div class="services-item">
+							<i class="fas fa-code"></i>
+							<h3>Criação <br> de sites</h3>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="services-item">
+							<i class="fab fa-figma"></i>
+							<h3>UI <br> Designer</h3>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="services-item ">
+							<i class="fas fa-mobile-alt"></i>
+							<h3>Sites <br> responsivos</h3>
+						</div>
+					</div>
+				</div>
+      </section>
+
+      
+         <!-- ============================================-->
+         
+        
+      </div>
+    </main><!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+    <section class="skills" id="habilidades">
+      <div class="row">
+        <div class="col-lg-6 col-xxl-5 text-center mx-auto mb-5">
+          <h2>Minhas Skills</h2>
+       
+        </div>
+      </div>
+      <div class="row text-center" style="margin-left: 3px;"">
+        <div class="col-6 col-md-2">
+          <div class="skill-item">
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <div class="skill-item">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <div class="skill-item">
+            <i class="fab fa-js"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <div class="skill-item">
+            <i class="fab fa-vuejs"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <div class="skill-item">
+            <i class="fab fa-react"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <div class="skill-item">
+            <i class="fab fa-bootstrap"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <div class="row flex-center pb-3">
+      <div class="col-md-6 order-1">
+        <p class="text-100 text-center"> Feito com&nbsp;<svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#00df5e" viewBox="0 0 16 16">
+            <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+          </svg>&nbsp;&nbsp;<a class="text-200 fw-bold" href="" target="_blank">Douglas Oliveira</a></p>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="{{ url_for('static', filename='vendors/@popperjs/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendors/bootstrap/bootstrap.min.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="{{ url_for('static', filename='vendors/fontawesome/all.min.js') }}"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  </body>
+
+</html>
